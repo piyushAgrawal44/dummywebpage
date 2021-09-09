@@ -1,0 +1,1283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Myntra page by Piyush Agrawal</title>
+  </head>
+<body>
+  <div class="container-fluid">
+  <nav class="container-fluid navbar navbar-expand-sm m-0 bg-white border-bottom d-none d-sm-block">
+    <!-- Just an image -->
+    <div class="row m-0">
+      <div class="co-1 col-sm-2 col-lg-1 p-0 mt-3 pl-4">
+        <nav class="navbar  p-0">
+          <a class="navbar-brand p-0 m-0" href="#">
+            <img class="img-fluid" src="https://images.indianexpress.com/2021/01/myntra.png" width="120" height="60"
+              alt="">
+          </a>
+        </nav>
+      </div>
+
+      <div class="col-4 col-sm-7 col-lg-5 mt-3 p-0">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link text-dark" href="#">MEN </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-dark" href="#">WOMEN </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-dark" href="#">KIDS</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-dark" href="#">HOME & LIVING</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-dark" href="#">BEAUTY</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-4 col-lg-4 d-none d-lg-block pt-3">
+        <form class="form-xl">
+          <input class="form-control mx-sm-2 bg-light" type="search" placeholder="Search for products,brands and more"
+            aria-label="Search">
+        </form>
+      </div>
+
+      <div class="col-2 col-sm-3 col-lg-2 pt-3">
+        <!-- three icons -->
+        <div class="row">
+          <!--1st icon  -->
+          <div class="col-3 ">
+            <div class="row ">
+              <div class="col-11 offset-2 ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                  class="bi bi-person" viewBox="0 0 16 16">
+                  <path
+                    d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                </svg>
+              </div>
+            </div>
+            <div class="row p-0">
+              <div class="col-12">
+                <button type="button" class="btn bg-white btn-sm p-0 ml-1" data-bs-toggle="tooltip"
+                  data-bs-placement="bottom" title="hello">
+                  Profile
+                </button>
+              </div>
+            </div>
+
+          </div>
+          <!-- 2nd -->
+          <div class="col-4">
+            <div class="row">
+              <div class="col-11 offset-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-suit-heart" viewBox="0 0 16 16">
+                  <path
+                    d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z" />
+                </svg>
+              </div>
+
+              <div class="row ">
+                <div class="col-12 text-dark">
+                  <p>Wishlist</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 3rd -->
+          <div class="col-4 pl-1">
+            <div class="row">
+              <div class="col-11 offset-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-bag ml-1" viewBox="0 0 16 16">
+                  <path
+                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                </svg>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 text-dark">
+                <p>Bag</p>
+              </div>
+            </div>
+          </div>
+          <!-- icon end -->
+
+        </div>
+      </div>
+    </div>
+    <div class="col-4 col-sm-4 d-none d-sm-block d-lg-none offset-sm-8  pt-3">
+      <form class="form-xl  my-lg-0">
+        <input class="form-control mr-sm-2 bg-light" type="search" placeholder="Search for products,brands and more"
+          aria-label="Search">
+      </form>
+    </div>
+
+  </nav>
+
+  <!-- navbar for mobile screen -->
+  <nav class="navbar sticky-top bg-white d-block d-sm-none">
+   
+    <div class="row p-0 m-0">
+
+    <nav class="col-2 col-sm-2 mr-4 ml-0 p-0 navbar d-block d-sm-none">
+       
+      <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+      </a>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Myntra</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+           Home
+          </div>
+          <div>
+           Men
+           </div>
+           <div>
+           Women
+          </div>
+          <div>
+           Kids
+          </div>
+          <div>
+           Home and Living
+          </div>
+        </div>
+      </div>
+
+    </nav>
+    
+    <div class="col-6 col-sm-3 p-0 mt-2">Myntra</div>
+
+    <div class="col-1 col-sm-1 mt-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-plus" viewBox="0 0 16 16">
+        <path d="M8.5 6a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V10a.5.5 0 0 0 1 0V8.5H10a.5.5 0 0 0 0-1H8.5V6z"/>
+        <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
+      </svg>
+    </div>
+
+    <div class="col-1 col-sm-1 mt-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+      </svg>
+    </div>
+
+    <div class="col-1 col-sm-1 mt-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+        class="bi bi-suit-heart" viewBox="0 0 16 16">
+        <path
+          d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z" />
+      </svg>
+    </div>
+    <div class="col-1 col-sm-1 mt-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-bag ml-1" viewBox="0 0 16 16">
+      <path
+        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+    </svg>
+    </div>
+
+  </div>
+  </nav>
+  <!-- for mobile screen bottom -->
+  <nav class="navbar fixed-bottom bg-white d-block d-sm-none">
+  <div class="row m-0 p-0">
+  <div class="col-6 pl-1 border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sort-alpha-down" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M10.082 5.629 9.664 7H8.598l1.789-5.332h1.234L13.402 7h-1.12l-.419-1.371h-1.781zm1.57-.785L11 2.687h-.047l-.652 2.157h1.351z"/>
+      <path d="M12.96 14H9.028v-.691l2.579-3.72v-.054H9.098v-.867h3.785v.691l-2.567 3.72v.054h2.645V14zM4.5 2.5a.5.5 0 0 0-1 0v9.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L4.5 12.293V2.5z"/>
+    </svg>
+    <b>Sort</b>
+  </div>
+  <div class="col-6 border">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filter" viewBox="0 0 16 16">
+      <path d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+    </svg>
+    <b>Filter</b>
+  </div>
+</div>
+  </nav>
+
+  <!-- breadcrum part -->
+  <nav class="d-none bg-white d-lg-block p-3" aria-label="breadcrumb">
+    <ol class="breadcrumb bg-white mt-1 py-0 mb-1">
+      <li class="breadcrumb-item "><a class="text-dark" href="#"> Home</a></li>
+      <li class="breadcrumb-item "><a class="text-dark" href="#">Clothing</a></li>
+      <li class="breadcrumb-item "><a class="text-dark" href="#">Shirts</a></li>
+      <li class="breadcrumb-item  " aria-current="page"><b>Shirt For Men</b></li>
+    </ol>
+    <span class="m-0"><b class=" my-0 ">Shirt for men</b>- 1536 items</span>
+  </nav>
+
+  <!-- main body part start -->
+  <div class="container-fluid bg-white">
+    <div class="row">
+      <!-- body left side part started -->
+      <div class="col-3  pt-4 border-bottom d-none d-sm-block">
+        <div class="sticky-top">
+          <div class="row bg-white d-none d-lg-block ml-2"><b class="pl-1">FILTER</b></div>
+
+          <!-- 1st -->
+          <div class="row ">
+            <div class="border  mt-2 col-10">
+              <div class="row  my-2">
+                <div class="col-9 pl-4">
+                  <b> BRAND</b>
+                </div>
+                <div class="col-3">
+                  <div class="btn-group dropleft ">
+                    <button type="button" class="btn bg-light rounded-circle " data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                          d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                      </svg>
+                    </button>
+                    <div class="dropdown-menu">
+                      <input class="form-control search-lg" type="search" placeholder="enter a brand name"
+                        aria-label="Search">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pl-2">
+                <div class="row ">
+                  <div class="col-12"> <input class="mr-2" type="checkbox">Blackberry (1985)</div>
+                </div>
+                <div class="row ">
+                  <div class="col-12"> <input class="mr-2" type="checkbox">Roadster (1998)</div>
+                </div>
+                <div class="row ">
+                  <div class="col-12"> <input class="mr-2" type="checkbox">Denim Lingo (1966)</div>
+                </div>
+                <div class="row ">
+                  <div class="col-12"> <input class="mr-2" type="checkbox">Allen Solly(1549)</div>
+                </div>
+                <div class="row">
+                  <div class="col-12"> <input class="mr-2" type="checkbox">Van Heusen(1893)</div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-12"> <input class="mr-2" type="checkbox">Louis Philippe Sport(1984)</div>
+                </div>
+              </div>
+              <div class="mb-3"> <b class="text-danger ml-3 ">+312 more option</b></div>
+            </div>
+          </div>
+
+          <!-- 2nd -->
+          <div class="row">
+            <div class="border col-10">
+              <div class="row my-2">
+                <div class="col-9 pl-4">
+                  <b> PRICE</b>
+                </div>
+              </div>
+
+              <div class="pl-2">
+                <div class="row">
+                  <div class="col-12"> <input class="mr-2" type="checkbox">100rs to 200rs</div>
+                </div>
+                <div class="row">
+                  <div class="col-12"> <input class="mr-2" type="checkbox">200rs to 300rs</div>
+                </div>
+                <div class="row">
+                  <div class="col-12"> <input class="mr-2" type="checkbox">300rs to 400rs</div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-12"> <input class="mr-2" type="checkbox">400rs to 500rs</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- 3rd -->
+          <div class="row ">
+            <div class="border pl-4 col-10">
+              <div class="row my-2">
+                <div class="col-9">
+                  <b>COLOR</b>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12"> <input class="mr-2" type="checkbox">Pink</div>
+              </div>
+              <div class="row">
+                <div class="col-12"> <input class="mr-2" type="checkbox">Green</div>
+              </div>
+              <div class="row">
+                <div class="col-12"> <input class="mr-2" type="checkbox">Yellow</div>
+              </div>
+              <div class="row">
+                <div class="col-12"> <input class="mr-2" type="checkbox">Blue</div>
+              </div>
+              <div class="row mb-2">
+                <div class="col-12"> <input class="mr-2" type="checkbox">purple</div>
+              </div>
+              <div class="mb-3"> <b class="text-danger ml-3 ">+3 more option</b></div>
+            </div>
+          </div>
+          <!-- 4th -->
+          <div class="row">
+            <div class="border pl-4 col-10">
+              <div class="row my-2">
+                <div class="col-9">
+                  <b>DISSCOUNT RANGE</b>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12"> <input class="mr-2" type="checkbox">5% off</div>
+              </div>
+              <div class="row">
+                <div class="col-12"> <input class="mr-2" type="checkbox">10% off</div>
+              </div>
+              <div class="row">
+                <div class="col-12"> <input class="mr-2" type="checkbox">20% off</div>
+              </div>
+              <div class="row">
+                <div class="col-12"> <input class="mr-2" type="checkbox">30% off</div>
+              </div>
+              <div class="row">
+                <div class="col-12"> <input class="mr-2" type="checkbox">40% off</div>
+              </div>
+              <div class="row">
+                <div class="col-12"> <input class="mr-2 mb-3" type="checkbox">50% off</div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- body left side bar completed -->
+
+      <!-- body right side par -->
+      <div class="col-12 col-sm-9 col-lg-9 p-0 m-0 border-bottom">
+
+        <!-- right side top strip -->
+        <div class=" p-0 mt-3 mb-0 mr-0 ml-0 d-none d-sm-block">
+          <div class="row  m-0">
+            <div class="col-9 p-0">
+              <div class="nav">
+                <!-- 1st dropdown -->
+                <li class="nav-item m-2 dropdown d-none d-lg-block">
+                  <a class="nav-link dropdown-toggle text-dark p-0 m-0" data-toggle="dropdown" href="#" role="button"
+                    aria-haspopup="true" aria-expanded="false">Add-Ons</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
+                </li>
+                <!-- 2nd dropdown -->
+                <li class="nav-item m-2 dropdown d-none d-lg-block">
+                  <a class="nav-link dropdown-toggle text-dark p-0" data-toggle="dropdown" href="#" role="button"
+                    aria-haspopup="false" aria-expanded="false">Bunddles</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"><input type="checkbox"> Bunddles </a>
+                    <a class="dropdown-item" href="#"><input type="checkbox"> Single Style</a>
+                  </div>
+                </li>
+                <!-- 3d dropdown -->
+                <li class="nav-item m-2 dropdown d-none d-lg-block">
+                  <a class="nav-link dropdown-toggle text-dark p-0" data-toggle="dropdown" href="#" role="button"
+                    aria-haspopup="false" aria-expanded="false">Character</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"><input type="checkbox"> Angry bird</a>
+                    <a class="dropdown-item" href="#"><input type="checkbox"> Avenger</a>
+                  </div>
+                </li>
+                <!-- 4nd dropdown -->
+                <li class="nav-item m-2  dropdown d-none d-lg-block">
+                  <a class="nav-link dropdown-toggle text-dark p-0" data-toggle="dropdown" href="#" role="button"
+                    aria-haspopup="false" aria-expanded="false">Collar</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"><input type="checkbox"> Non Collar </a>
+                    <a class="dropdown-item" href="#"><input type="checkbox"> Single Collar</a>
+                  </div>
+                </li>
+                <!-- 5nd dropdown -->
+                <li class="nav-item m-2 dropdown">
+                  <a class="nav-link dropdown-toggle text-dark p-0" data-toggle="dropdown" href="#" role="button"
+                    aria-haspopup="false" aria-expanded="false">Country of Origin</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"><input type="checkbox"> india </a>
+                    <a class="dropdown-item" href="#"><input type="checkbox"> USA</a>
+                  </div>
+                </li>
+                <!-- 6nd dropdown -->
+                <li class="nav-item m-2  dropdown">
+                  <a class="nav-link dropdown-toggle text-dark p-0" data-toggle="dropdown" href="#" role="button"
+                    aria-haspopup="false" aria-expanded="false">Febric</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"><input type="checkbox"> Nylon </a>
+                    <a class="dropdown-item" href="#"><input type="checkbox"> Other</a>
+                  </div>
+                </li>
+                <!-- 7nd dropdown -->
+                <li class="nav-item m-2 dropdown">
+                  <a class="nav-link dropdown-toggle text-dark p-0" data-toggle="dropdown" href="#" role="button"
+                    aria-haspopup="false" aria-expanded="false">Febric2</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"><input type="checkbox"> cotton </a>
+                    <a class="dropdown-item" href="#"><input type="checkbox"> Other</a>
+                  </div>
+                </li>
+                <b class="p-2">+14 more</b>
+              </div>
+            </div>
+            <div class="col-3 pl-2 d-none d-lg-block">
+              <div class="dropdown">
+                <button class="btn  bg-white border dropdown-toggle " type="dropdown" id="dropdownMenuButton"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Sort by: <b>Recommended</b>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">new</a>
+                  <a class="dropdown-item" href="#">low budget</a>
+                  <a class="dropdown-item" href="#">treanding</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- complete top strip part end here -->
+
+        <!-- cloth photo part start from here =center part -->
+        <div class=" my-2 p-0 mx-0 border-right border-top border-bottom">
+
+          <div class="row pt-4 m-0">
+            <div class="col-6 col-sm-4 col-lg-3 d-none d-sm-block">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1272502/2018/2/5/11517823086440-Highlander-White-Slim-Fit-Casual-Shirt-161517823086304-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title fs-6 ">POLAND</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mr-1">Rs. 1244</b><del class="mx-1">Rs.1849</del><span
+                      class="text-danger">(64% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+            <!-- for mobile screeen -->
+            <div class="col-6 col-sm-4 col-lg-3 p-0 m-0 d-block d-sm-none">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1272502/2018/2/5/11517823086440-Highlander-White-Slim-Fit-Casual-Shirt-161517823086304-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title fs-6 ">POLAND</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mr-1">Rs. 1244</b><del class="mx-1">Rs.1849</del><span
+                      class="text-danger">(64% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-lg-3 d-none d-sm-block ">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/9/24/69922084-6b31-4c42-87d9-68183967831b1600898190979-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">GANT</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 3999</b><del class="mx-1">Rs.4849</del><span
+                      class="text-danger">(64% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+            <!-- for mobile screen -->
+            <div class="col-6 col-sm-4 col-lg-3 p-0 m-0 d-block d-sm-none">
+              <div class="card p-0 m-0">
+                <img class="card-img-top img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/9/24/69922084-6b31-4c42-87d9-68183967831b1600898190979-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">GANT</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 3999</b><del class="mx-1">Rs.4849</del><span
+                      class="text-danger">(64% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-lg-3 d-none d-sm-block">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14285474/2021/6/30/61806ab7-d2e5-47cb-8436-a0abaebb11131625047427718-Mens-100--Cotton-Slim-Fit-Orange-Shirts-131625047427174-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">Flying</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 399</b><del class="mx-1">Rs.999</del><span
+                      class="text-danger">(54% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-lg-3 d-none d-sm-none d-lg-block">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10187555/2019/9/26/4cc4ce57-09df-42ff-b5c3-092019d711ae1569502608755-WROGN-Men-Burgundy-Regular-Fit-Solid-Casual-Shirt-9071569502-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">HIGHLAND</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 865</b><del class="mx-1">Rs.1849</del><span
+                      class="text-danger">(44% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- one row end here -->
+          <div class="row m-0">
+            <div class="col-6 col-sm-4 col-lg-3  d-none d-sm-block">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13696412/2021/8/10/4dc5fc8e-e6d3-4e86-a7a1-b2a456de4d9e1628577751527-SINGLE-Men-Shirts-791628577750941-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">Dennis</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 665</b><del class="mx-1">Rs.1849</del><span
+                      class="text-danger">(64% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+          <!-- for mobile screen -->
+            <div class="col-6 col-sm-4 col-lg-3 p-0 m-0 d-block d-sm-none ">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13696412/2021/8/10/4dc5fc8e-e6d3-4e86-a7a1-b2a456de4d9e1628577751527-SINGLE-Men-Shirts-791628577750941-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">Dennis</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 665</b><del class="mx-1">Rs.1849</del><span
+                      class="text-danger">(64% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-6 col-sm-4 col-lg-3 d-none d-sm-block ">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/12919506/2021/8/19/2f22dc30-816d-46db-bc59-ac450a0d09ec1629358501012-Roadster-Men-Charcoal-Grey-Regular-Fit-Faded-Casual-Denim-Sh-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">ROADSTER</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 899</b><del class="mx-1">Rs.484</del><span
+                      class="text-danger">(54% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- mobile screen -->
+            <div class="col-6 col-sm-4 col-lg-3 p-0 m-0 d-block d-sm-none ">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/12919506/2021/8/19/2f22dc30-816d-46db-bc59-ac450a0d09ec1629358501012-Roadster-Men-Charcoal-Grey-Regular-Fit-Faded-Casual-Denim-Sh-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">ROADSTER</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 899</b><del class="mx-1">Rs.484</del><span
+                      class="text-danger">(54% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-lg-3 d-none d-sm-block">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1729391/2019/8/28/a9d4a7aa-af7e-4a37-a9d4-a94dc8c057e81566992341974-WROGN-Navy-Blue-Slim-Fit-Checked-Casual-Shirt-52415669923403-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">WRONG</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 775</b><del class="mx-1">Rs.1449</del><span
+                      class="text-danger">(34% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-lg-3 d-none d-sm-none d-lg-block">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1265389/2018/2/7/11517995810352-Highlander-Black-Slim-Fit-Casual-Shirt-1061517995810069-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">HIGHLANDER</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 465</b><del class="mx-1">Rs.999</del><span
+                      class="text-danger">(44% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+          </div>
+       
+          <!-- sec row end here -->
+          <div class="row m-0">
+            <div class="col-6 col-sm-4 col-lg-3 d-none d-sm-block ">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13800698/2021/7/20/5184e277-426c-4a3e-8448-03544eb766b81626784238386-US-Polo-Assn-Men-Shirts-6321626784237831-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">U.S. POLO</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 665</b><del class="mx-1">Rs.1849</del><span
+                      class="text-danger">(64% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+            <!-- mobile -->
+            <div class="col-6 col-sm-4 col-lg-3 p-0 m-0 d-block d-sm-none ">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13800698/2021/7/20/5184e277-426c-4a3e-8448-03544eb766b81626784238386-US-Polo-Assn-Men-Shirts-6321626784237831-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">U.S. POLO</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 665</b><del class="mx-1">Rs.1849</del><span
+                      class="text-danger">(64% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-lg-3 d-none d-sm-block">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13663558/2021/7/23/ff68e9f6-2194-431d-9084-fa46c8e78e9d1627030738270-Roadster-Men-Shirts-9311627030737836-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">Roadster</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 1775</b><del class="mx-1">Rs.339</del><span
+                      class="text-danger">(30% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+            <!-- mobile -->
+            <div class="col-6 col-sm-4 col-lg-3 p-0 m-0 d-block d-sm-none ">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13663558/2021/7/23/ff68e9f6-2194-431d-9084-fa46c8e78e9d1627030738270-Roadster-Men-Shirts-9311627030737836-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">Roadster</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 1775</b><del class="mx-1">Rs.339</del><span
+                      class="text-danger">(30% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-lg-3 d-none d-sm-block">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/7488102/2019/8/22/8002a744-0dad-4dbb-9481-cf0090134c3b1566454086786-Dennis-Lingo-Men-Pink-Slim-Fit-Solid-Casual-Shirt-9891566454-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">Dennis Lingo</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 665</b><del class="mx-1">Rs.1849</del><span
+                      class="text-danger">(64% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-lg-3 d-none d-sm-none d-lg-block">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2256568/2018/4/3/11522749277396-HIGHLANDER-Men-Teal-Slim-Fit-Solid-Casual-Shirt-7301522749277212-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">Puma</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 6555</b><del class="mx-1">Rs.199</del><span
+                      class="text-danger">(6% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- third row end here -->
+          <div class="row m-0">
+            <div class="col-6 col-sm-4 col-lg-3 d-none d-sm-block ">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13830750/2021/7/23/2e702eae-ca34-4342-bfda-6a99cdc85c051627017190469-Mast--Harbour-Men-Shirts-9881627017189836-5.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">Adidas</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 665</b><del class="mx-1">Rs.1849</del><span
+                      class="text-danger">(64% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+            <!-- mobile -->
+            <div class="col-6 col-sm-4 col-lg-3 p-0 m-0 d-block d-sm-none">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13830750/2021/7/23/2e702eae-ca34-4342-bfda-6a99cdc85c051627017190469-Mast--Harbour-Men-Shirts-9881627017189836-5.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">Adidas</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 665</b><del class="mx-1">Rs.1849</del><span
+                      class="text-danger">(64% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-lg-3 d-none d-sm-block ">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2414313/2018/3/13/11520926368526-HERENOW-Men-Red--Black-Regular-Fit-Checked-Casual-Shirt-8881520926368447-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">Roadster</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 665</b><del class="mx-1">Rs.1849</del><span
+                      class="text-danger">(64% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+            <!-- mobile -->
+            <div class="col-6 col-sm-4 col-lg-3 p-0 m-0 d-block d-sm-none">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2414313/2018/3/13/11520926368526-HERENOW-Men-Red--Black-Regular-Fit-Checked-Casual-Shirt-8881520926368447-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">Roadster</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 665</b><del class="mx-1">Rs.1849</del><span
+                      class="text-danger">(64% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-lg-3 d-none d-sm-block">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13800698/2021/7/20/5184e277-426c-4a3e-8448-03544eb766b81626784238386-US-Polo-Assn-Men-Shirts-6321626784237831-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">Dennis Lingo</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 665</b><del class="mx-1">Rs.1849</del><span
+                      class="text-danger">(64% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-lg-3 d-none d-sm-none d-lg-block">
+              <div class="card p-0 m-0">
+                <img class="card-img-top  img-fluid"
+                  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10456354/2019/8/22/d56e75f6-f1a7-4fdd-b430-51befb36f88d1566454760527-Campus-Sutra-Men-Colourblocked-Casual-Spread-Shirt-290156645-1.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h6 class="card-title">Dennis Lingo</h6>
+                  <p class="card-text">Men slim fit caual shirt</p>
+                  <p class="card-text  "><b class="mx-1">Rs. 665</b><del class="mx-1">Rs.1849</del><span
+                      class="text-danger">(64% off)</span></p>
+                  <a href="#" class="btn btn-primary d-none d-lg-block">add to wishlist</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 4th row end here -->
+        </div>
+        <!-- 1,2,3, bar start -->
+        <nav class="container d-none d-sm-block my-5" aria-label="Page navigation example">
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item"><a class="page-link" href="#">6</a></li>
+            <li class="page-item"><a class="page-link" href="#">7</a></li>
+            <li class="page-item"><a class="page-link" href="#">8</a></li>
+            <li class="page-item"><a class="page-link" href="#">9</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a> </li>
+          </ul>
+        </nav>
+        <!-- 1.2.3. bar end -->
+      </div>
+    </div>
+  </div>
+  <!-- theory start here -->
+
+  <div class="container-fluid p-5 d-none bg-light d-sm-block">
+
+    <div class="row">
+      <div class="col-8 ">
+        <div class=" mt-5">
+          <div class="text-center mb-3"> <b> BUY SHIRTS FOR MEN</b></div>
+          <div class="mb-2 "><b>SIMPLE YET STYLISH - THE BASICS OF SHIRTS.</b></div>
+          <div>
+            <p>If you’re thinking men are short of choices when it comes to clothes, think again.
+              T-shirts surely work as the most practical outfit for men but the classic men’s shirt is far more suave.
+              The most basic of men’s shirts can be styled in a multitude of ways to look visibly different but
+              keeping
+              true to the function of the outfit. The options for styles are vast, you can pick the style of placket,
+              collar, cuffs, sleeves, back pleat, hemline and much more. Shirts of today have certainly come a long
+              way
+              from the baggy fits of the past decades.
+              If you’re looking to add some trendy shirts or kurtas to your wardrobe, start your search at Myntra in
+              the
+              styles mentioned below.
+            </p>
+
+            <p> While many would prefer to get a tailor made shirt for the best fit; finding a skilled tailor, the
+              right
+              fabric and the long wait between fabric to final product is expensive and not always feasible.
+              Brands today offer a variety of fits to suit every body frame and it’s only best to buy mens shirts
+              online.
+            </p>
+
+            <p> From the wide range of shirts for men available online, here are the top choices for every closet.</p>
+
+            <p>Solid Shirts: Solids are the identity of the straightforward man; and the perfect partner for a formal
+              blazer and classic leather shoes. Defined as the quintessential corporate look, solids are the epitome
+              of
+              minimalism, the flat single colour stands out brilliantly in a crowd of prints and stripes. Solids
+              paired
+              with formal trousers and shoes suit every occasion and also allow a variety of choices
+              in colour from mild cool shades to bright standout ones. Perfect your look by wearing the right colour
+              at
+              the right place.
+            </p>
+
+            <p>
+              Chequered Shirts:Certainly one of the best shirts for men and the signature of the typical guy next
+              door,
+              chequered shirts are associated with men of a friendly personality and easy going attitude. The relaxed
+              look of these shirts gives out a very country vibe, one of relaxation and taking things at a slow pace.
+              Chequered shirts can make you look wider, find the right fit and go for it.
+              The rule to follow with these shirts is darker shirts for the evening and brighter colours for the day.
+            </p>
+
+            <p>
+              Printed Shirts: Designer shirts for men are dominated by prints and patterns. Prints on shirts bring a
+              delightful spark of life to the otherwise morose men’s wardrobe. Myntra offers a copious range of
+              designers shirts to let you stand out from the rest. Go crazy with prints,
+              from geometric patterns to abstract art, printed shirts are perfect for the fun loving man, who is the
+              life of the party.
+            </p>
+
+            <p>
+              Striped Shirts: Rightfully called the unsung hero of our wardrobes, we’ve all been saved by the striped
+              shirt, in those last minute rushes to pick something nice to wear. Famed for its versatility, it can
+              double from a formal outfit to causal one by just rolling up the sleeves.
+              The trendy stripes are a beloved fashion favourite and will always hold its place as a closet essential.
+            </p>
+
+            <p>
+              There is an unmatched elegance in a man who is dressed in a crisp shirt, well ironed formal trousers and
+              tidy formal shoes. So find your favourite fabric and pick your fit carefully, and choose a style that
+              fits
+              your body frame. A free size could leave you floating and a slim fit could make you feel uneasy.
+              Never over accessorize with printed shirts, just a simple bomber jacket and sneakers would complete the
+              look.
+            </p>
+
+            <p>
+              Your shirt defines you, so always wear it tastefully. Start your shopping on Myntra today, the best
+              place
+              for men’s shirts online in India.
+            </p>
+          </div>
+        </div>
+        <!-- YOUTube video part -->
+        <div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+          <h3>VIDEO: <span itemprop="name">How To Wear A Shirt In Different Ways | Fit Like A Model | Myntra</span>
+          </h3>
+          <br>
+
+          <object>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ITtTScTBak4" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen=""></iframe>
+          </object>
+          <span itemprop="description">
+            <p>If you are bored of wearing the shirt, in the same way, all the time, then don't
+              worry! In this episode of 'Fit Like A model', our style mentor will show how to wear a shirt in
+              different
+              styles!</p>
+          </span>
+        </div>
+        <!-- youtbe part end -->
+
+        <!--2nd YOUTube video part -->
+        <div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+          <h3>Also Watch this if you are Bored: <span itemprop="name">Raat me Payal ki Avaj | Uniuqe Bansal</span>
+          </h3>
+          <br>
+          <object data="" type="">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VxBvqMQH6q4" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen=""></iframe>
+          </object>
+          <span itemprop="description">
+            <p>Warning: after watching this you will not be able to stop laughing!!!</p>
+          </span>
+        </div>
+        <!-- 2nd video end -->
+      </div>
+
+      <div class="col-4 p-0">
+        <div class=" my-5">
+          <div class="text-center mb-4"> <b>SHIRTS FOR MEN PRICE LIST</b></div>
+
+          <div class="row mb-2">
+            <div class="col-9 mx-2">Shirts for Men</div>
+            <div class="col-2">PRICE (RS)</div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-9 mx-2">HERE&NOW Men Red & Black Regular Fit Checked Casual Shirt</div>
+            <div class="col-2">Rs. 699</div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-9 mx-2">Roadster Men Grey Regular Fit Solid Casual Shirt</div>
+            <div class="col-2">Rs. 699</div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-9 mx-2">HIGHLANDER Men Green Slim Fit Solid Casual Shirt</div>
+            <div class="col-2">Rs. 699 </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-9 mx-2">Dennis Lingo Men Pink Slim Fit Solid Casual Shirt</div>
+            <div class="col-2">Rs. 665 </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-9 mx-2">Campus Sutra Men Navy Blue & Grey Standard Fit Colourblocked Casual Shirt</div>
+            <div class="col-2"> Rs. 524</div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-9 mx-2">Peter England Casuals Men Pink Slim Fit Printed Pure Cotton Casual Shirt</div>
+            <div class="col-2">Rs. 699 </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-9 mx-2">Roadster Men Grey Regular Fit Solid Casual Shirt</div>
+            <div class="col-2">Rs. 699</div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-9 mx-2">Campus Sutra Men Navy Blue & Grey Standard Fit Colourblocked Casual Shirt</div>
+            <div class="col-2"> Rs. 524</div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-9 mx-2">HIGHLANDER Men Green Slim Fit Solid Casual Shirt</div>
+            <div class="col-2">Rs. 699 </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col-9 mx-2"><b>Data last updated on 03/09/2021</b></div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- theory part end hee -->
+
+  <!-- footer part -->
+  
+  <div class="container-fluid p-5 bg-light d-none d-sm-block">
+    <footer class="bg-light p-1 row m-0">
+
+      <div class="col-2">
+        <b>Online Shopping</b>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Men</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Women</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Kids</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home and Living</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Beauty</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Gift card</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Myntra Insider <span
+                class="badge bg-danger text-white">New</span></a></li>
+        </ul>
+      </div>
+
+      <div class="col-2">
+        <b>Useful Links</b>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQ</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">T&C</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms Of Use</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Track Order</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Shipping</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cancellation</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"> Return</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"> Whitehat</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"> Blog</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"> Careers</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"> Privacy Policy</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"> Unique Bansal</a></li>
+        </ul>
+      </div>
+
+      <div class="col-4 ">
+        <b class="wrap-text">EXPERIENCE MYNTRA APP ON MOBILE</b>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-4 ">
+        <div class="row mb-3">
+          <div class="col-3">
+            <img class="img-fluid"
+              src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png"
+              alt="">
+          </div>
+          <div class="col-9"><b>100% ORIGINAL</b> guarantee for all products at myntra.com</div>
+        </div>
+
+        <div class="row">
+          <div class="col-3">
+            <img class="img-fluid"
+              src="https://constant.myntassets.com/web/assets/img/ef05d6ec-950a-4d01-bbfa-e8e5af80ffe31574602902427-30days.png"
+              alt="">
+          </div>
+          <div class="col-9"><b> Return within 30days</b> of receiving your order</div>
+        </div>
+
+      </div>
+
+    </footer>
+    <!-- popular search part -->
+    <div class="row  m-0">
+
+      <div class=" col-2 p-0">
+        POPULAR SEARCHES
+      </div>
+      <div class="col-10">
+        <hr>
+      </div>
+    </div>
+    <div class="row m-0">
+      Adidas | Arrow | Fila | Online | Shopping | Nike | Pepe | Jeans | Puma | United | Colors Of Benetton |
+      Fastrack | Shorts | Being |Human | Skirts | Woodland | Supra | Dresses |
+      Clothing | Jewellery | T Shirts | Shoes | Bags | Watches | Caps | Shirts | Backpacks | Flip | Flops |
+      Sunglasses | Kurtas | Lingerie | Jackets | Skechers | Saree | Sandals |
+      Skirts| Dresses Party Dresses | Shirts | Shorts
+      Dress Materials | Printed Leggings| Tunics| Lee Jeans| Killer Jeans| Polo Tshirts| Clothing| Women Dresses|
+      Wrangler Jeans| Casual Shirts For Men| Puma Tshirts
+    </div>
+
+    <!-- copyright part -->
+    <div class="my-5">
+      <div class="row">
+        <div class="col-8  ">
+          <p>In case of any concern,<b> Contact Us</b></p>
+        </div>
+        <div class="col-4 ">
+          <p class="ml-5 pl-5">© 2022 Unique. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+
+   </div>
+  <!-- footer  end  -->
+   <!-- for mobile screen accordian -->
+   <div class="accordion mb-5 d-block d-sm-none" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          More info about men shirts
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+           <!-- theory start here -->
+           <div class="container-fluid bg-light">
+            <div class="row m-0 p-0"><b class="m-0 p-0">SHOP FOR</b></div>
+            <div class="row m-0">Explore | Men | Women | Kids | Home & Living </div>
+            <div class="row my-2"> <b>KEEP IN TOUCH</b></div>
+            <div class="row">
+              <div class="col-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg>
+            </div>
+              <div class="col-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg>
+              </div>
+              <div class="col-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg>
+              </div>
+              <div class="col-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                </svg>
+              </div>
+            </div>
+            <div class="my-3">
+              <b>USEFUL LINKS </b><br>
+              <p class="mt-1">Contact Us | FAQ | T&C | Track Orders | Shipping | Cancellation | Return | Site Map</p>
+            </div>
+            <div class=" row m-0 p-0">
+              <div class="col-6 p-0 m-0 text-break"><p class="fs-6">© 2022 www.myntra.com</p> </div>
+              <div class="col-6 m-0 pl-1" class="ml-1">All right reserved</div>
+            </div>
+
+            <div class="row mx-0 mt-2">
+
+              <div class="col-12 p-0 m-0">
+                <div class=" my-5">
+                  <div class="text-center mb-4"> <b>SHIRTS FOR MEN PRICE LIST</b></div>
+
+                  <div class="row mb-2">
+                    <div class="col-9 mx-2">Shirts for Men</div>
+                    <div class="col-2">PRICE (RS)</div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-9 mx-2">HERE&NOW Men Red & Black Regular Fit Checked Casual Shirt</div>
+                    <div class="col-2">Rs. 699</div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-9 mx-2">Roadster Men Grey Regular Fit Solid Casual Shirt</div>
+                    <div class="col-2">Rs. 699</div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-9 mx-2">HIGHLANDER Men Green Slim Fit Solid Casual Shirt</div>
+                    <div class="col-2">Rs. 699 </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-9 mx-2">Dennis Lingo Men Pink Slim Fit Solid Casual Shirt</div>
+                    <div class="col-2">Rs. 665 </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-9 mx-2">Campus Sutra Men Navy Blue & Grey Standard Fit Colourblocked Casual Shirt</div>
+                    <div class="col-2"> Rs. 524</div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-9 mx-2">Peter England Casuals Men Pink Slim Fit Printed Pure Cotton Casual Shirt</div>
+                    <div class="col-2">Rs. 699 </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-9 mx-2">Roadster Men Grey Regular Fit Solid Casual Shirt</div>
+                    <div class="col-2">Rs. 699</div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-9 mx-2">Campus Sutra Men Navy Blue & Grey Standard Fit Colourblocked Casual Shirt</div>
+                    <div class="col-2"> Rs. 524</div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-9 mx-2">HIGHLANDER Men Green Slim Fit Solid Casual Shirt</div>
+                    <div class="col-2">Rs. 699 </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-9 mx-2"><b>Data last updated on 03/09/2021</b></div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- theory part end hee -->
+
+          <!-- footer part -->
+        
+          <!-- footer  end  -->
+        </div>
+      </div>
+    </div>
+    </div>
+   
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
